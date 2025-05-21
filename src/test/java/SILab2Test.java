@@ -49,5 +49,9 @@ class SILab2Test {
         item.setQuantity(11);
         assertEquals(1070d, SILab2.checkCart(items,"1234567812345678"));
 
+        //F || F || F
+        item.setQuantity(5);
+        assertEquals(500d, SILab2.checkCart(items,"1234567812345678"));
+
     }
 }
