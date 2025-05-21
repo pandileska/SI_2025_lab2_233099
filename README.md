@@ -23,7 +23,7 @@ Mila Pandileska 233099
     tuka se izminuvaat  1, 3.1, 3.2, 3.3, 4, 6, 7 ,8, 9 ,10, 11, 12.1, 12.2, 12.3, 13, 16, 17
 
 
-5. if (item.getPrice() > 300 || item.getDiscount() > 0 || item.getQuantity() > 10) 
+5.-if (item.getPrice() > 300 || item.getDiscount() > 0 || item.getQuantity() > 10) 
    -potrebno se barem 4 test sluchai za Multiple Condition kriteriumot,
   pravam objekt so prvichni properties price = 102, discount = 0, quantity = 0, i pred sekoj test gi menuvam soodvetno so set metodite
 
